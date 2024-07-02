@@ -13,9 +13,13 @@ img{
   margin: 10px;
 }
 
-h1, h2, .btn{
+h1, h2, .btn, .btnShow{
     font-family: "Sevillana";
     font-style: oblique;
+}
+
+button{
+  width: 40vw;
 }
 
 .btn{
@@ -32,10 +36,9 @@ h1, h2, .btn{
 
 .btn:hover{
   border: rgba(255, 0, 0, 0.2) solid 2px;
-  color: #97BE5A;
+  color: #2B2A4C;
   background-color: #FFA27F;
   text-transform: uppercase;
-  text-decoration: line-through;
 }
 
 .all{
@@ -49,9 +52,33 @@ h1{
 
 h2{
   color: #97BE5A;
+  letter-spacing: 1cqw;
+  text-align: center;
 }
 
-p{
+.describtion, h3{
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #FF0000;
+  font-size: large;
+}
+
+.btnShow{
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgba(151, 190, 90, 0.2);
+  border: 1px solid transparent;
+  text-transform: lowercase;
+  font-size: x-large;
+  letter-spacing: 1cqw;
+  text-align: center;
+  color: #FF0000;
+  border-radius: 30px;
+  align-self: center;
+  padding: 0px;
+}
+.price{
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-style: italic;
@@ -62,7 +89,7 @@ p{
   margin: 5px;
 }
 
-p:hover{
+.price:hover{
   font-size: xx-large;
   color: #FF0000;
 }
